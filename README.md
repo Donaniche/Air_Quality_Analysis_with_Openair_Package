@@ -11,7 +11,7 @@
 - [References](references)
   
 ## Project overview
-The openair package in R studio is an R tool, which has been designed for analyzing air quality (air pollution) datasets, and these could include meteorological dataset. However, this is dependent on the objective and the type of analysis required. This piece has not been exhaustive, and more information can be sourced from [Dowload here](https://davidcarslaw.com/files/openairmanual.pdf).
+The openair package in R studio is an R tool, which has been designed for analyzing air quality (air pollution) datasets, and this could include meteorological dataset. However, this is dependent on the objective and the type of analysis required. This piece has not been exhaustive, and more information can be sourced from [Dowload here](https://davidcarslaw.com/files/openairmanual.pdf).
 
 ### Datasets source
 The datasets were daily (average) air quality datasets for Manchester (UK) in 2023, collected from NASA [Link](https://power.larc.nasa.gov/data-access-viewer) and compiled into a csv file, “air_manchester.csv” [Datasets csv file](https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M,RH2M,PRECTOTCORR,WS10M,WD10M&community=RE&longitude=-2.2379&latitude=53.4815&start=20230101&end=20231231&format=CSV). The variables included air pollutants - ozone (O3) and nitrogen dioxide (NO2), and meteorological parameters - temperature (temp), relative humidity (rh), wind speed (ws) and wind direction (wd). The collated meteorology datasets were at 2 metres.
